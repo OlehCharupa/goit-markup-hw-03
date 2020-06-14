@@ -184,10 +184,12 @@ body{
     line-height: 1.14;
     text-transform: uppercase;
 }
-/* преимущества */
+/* Скрыть текст,заголовок */
 .invisible{
     display: none;
 }
+
+/* преимущества */
 .feature-list .text{
     margin: 0;
 }
@@ -408,7 +410,15 @@ text-align: center;
 }
 
 /* PORTFOLIO */
+
+
+
+.filter-menu{
+    display: flex;
+    justify-content: center;
+}
 .filter-menu .button{
+   padding: 6px 22px;
    color: var(--title-text-color);
    background: #F5F4FA;
    font-family: inherit;
@@ -416,6 +426,10 @@ text-align: center;
    font-size: 16px;
    line-height: 1.63;
    letter-spacing:inherit;
+   border-radius: 4px;
+}
+.filter-menu .item + .item{
+    margin-left: 8px;
 }
 .filter-menu .button:hover,
 .filter-menu .button:focus{
