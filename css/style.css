@@ -277,7 +277,7 @@ text-align: center;
     display: flex;
     margin-right: 32px;
     margin-left: 32px;
-    margin-bottom: 24px;
+    
 }
 .socials .socials-link + .socials-link{
     margin-left: 10px;
@@ -285,6 +285,7 @@ text-align: center;
 .socials-link .link{
     display: block;
     outline: 1px solid red;
+    margin-bottom: 24px;
     width: 44px;
     height: 44px;
 }
@@ -308,21 +309,37 @@ text-align: center;
 }
 
 
+/* Футер */
 
 
 
-
-.footer{
+.footer-page{
     color: var(--title-text-white);
     background-color: #2F303A;
-    /* font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em; */
+    height: 253px;
+}
+.footer-page .container {
+    display: flex;
+    padding: 0;
+    align-items: baseline;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+
 }
 
+.address{
+    margin-top: 45px;
+    margin-right: 69px;
+    margin-bottom: 28px;
 
-
+}
+.address-text{
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+}
+.address-text .text{ 
+    margin-top: 8px;
+}
 .address .home-page{
     color: var(--title-text-white);
     font-family: Raleway;
@@ -332,13 +349,14 @@ text-align: center;
     text-decoration: none;
 }
 .home-page .text{
-    color: var(--accent-color);
+     color: var(--accent-color);
 }
 .home-page:hover,
 .home-page:focus{
     color: var(--accent-color);
 }
 .address .link{
+    margin-top: 9px;
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
 }
@@ -348,26 +366,45 @@ text-align: center;
 }
 
 .socials-link .title-link{
+    display: block;
+    margin-bottom: 20px;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
 }
-.socials-list .link{
-    color: var(--title-text-white);
-    text-decoration: none;
+ .footer .socials-link{
+    margin-right: 94px;
 }
-.socials-list .link:hover,
-.socials-list .link:focus{
-    color: var(--accent-color);
+.socials-list{
+    display: flex;
 }
+.socials-list .item + .item{
+    margin-left: 10px;
+}
+.footer-page .subscription{
+    display: inline-block;
+}
+.subscription .text{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 
-.footer .copy{
+}
+.footer-page .copy{
+    margin-top: 0;
+    margin-bottom: 0;
     color: rgba(255, 255, 255, 0.4);
+
     font-weight: normal;
     font-size: 12px;
     line-height: 2;
     text-align: center;
+    padding-top: 18px;
+    padding-bottom: 21px;
 }
 
 /* PORTFOLIO */
