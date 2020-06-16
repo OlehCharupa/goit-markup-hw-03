@@ -50,6 +50,11 @@ body{
     padding-bottom: 94px;
     margin: 0 auto;
 }
+.img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
 
 .main-nav{
     display: flex;
@@ -210,8 +215,6 @@ body{
 }
 .feature-list .item{
     width: 270px;
-    height: 251px;
-    outline: 1px solid red;
 }
 .feature-list .item + .item{
     margin-left: 30px;
@@ -250,8 +253,8 @@ body{
     display: flex;
 }
 .team-list .item{
+    background: #FFFFFF;
     width: 270px;
-    outline: 1px solid red;
     align-content: center;
 }
 .team-list .item + .item{
@@ -283,6 +286,7 @@ text-align: center;
     display: flex;
     margin-right: 32px;
     margin-left: 32px;
+    margin-bottom: 24px;
     
 }
 .socials .socials-link + .socials-link{
@@ -291,7 +295,7 @@ text-align: center;
 .socials-link .link{
     display: block;
     outline: 1px solid red;
-    margin-bottom: 24px;
+    margin: 0 auto;
     width: 44px;
     height: 44px;
 }
@@ -324,7 +328,6 @@ text-align: center;
 .footer-page{
     color: var(--title-text-white);
     background-color: #2F303A;
-    height: 253px;
 }
 .footer-page .container {
     display: flex;
@@ -488,11 +491,11 @@ margin-bottom: 0;
 .card-content .title-card{
     margin-top: 0px;
     margin-bottom: 4px;
- color: var(--title-text-color);
- font-weight: 700;
-font-size: 18px;
-line-height: 2;
-letter-spacing: 0.06em;
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
 }
 
 .card-content .desc{
