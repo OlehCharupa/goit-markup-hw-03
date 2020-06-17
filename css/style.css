@@ -46,8 +46,6 @@ body{
     width: 1200px ;
     padding-left: 15px;
     padding-right: 15px;
-    padding-top: 94px;
-    padding-bottom: 94px;
     margin: 0 auto;
 }
 .img {
@@ -62,6 +60,10 @@ body{
     padding-top: 0;
     padding-bottom: 0;
  
+}
+.section{
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 /* логотип */
@@ -195,6 +197,9 @@ body{
 }
 
 /* преимущества */
+.feature-section{
+    padding-bottom: 0;
+}
 .feature-list .text{
     margin: 0;
 }
@@ -284,10 +289,9 @@ text-align: center;
 
 .socials{
     display: flex;
-    margin-right: 32px;
-    margin-left: 32px;
-    margin-bottom: 24px;
-    
+    margin: 0 auto;
+    padding-bottom: 24px;
+    justify-content: center;
 }
 .socials .socials-link + .socials-link{
     margin-left: 10px;
