@@ -43,7 +43,7 @@ body {
   padding-right: 15px;
   margin: 0 auto;
 }
-.img {
+img {
   display: block;
   max-width: 100%;
   height: auto;
@@ -426,6 +426,7 @@ body {
   font-size: 16px;
   line-height: 1.63;
   letter-spacing: inherit;
+  border-style: hidden;
   border-radius: 4px;
 }
 .filter-menu .item + .item {
